@@ -6,7 +6,7 @@ import GetStarted from "@/components/Common/GetStarted";
 import FooterOne from "@/components/Layout/Footer/FooterOne";
 import baseApiUrl from "@/utils/baseApiUrl";
 
-const ServicesDetails = ({ blog: { data } }) => {
+const BlogDetails = ({ blog: { data } }) => {
   return (
     <>
       <PageTitle page="Blog Details" />
@@ -59,4 +59,4 @@ export async function getStaticProps({ params }) {
   };
 }
 
-export default ServicesDetails;
+export default BlogDetails;
