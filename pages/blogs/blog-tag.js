@@ -36,4 +36,4 @@ const BlogTags = () => {
   );
 };
 
-export default VlogTags;
+export default BlogTags;
